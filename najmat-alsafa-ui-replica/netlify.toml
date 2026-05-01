@@ -1,4 +1,0 @@
-[build]
-  base    = "najmat-alsafa-ui-replica"
-  command = "npm run build"
-  publish = "najmat-alsafa-ui-replica/dist"
