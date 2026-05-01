@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c9a962;
+        font-family: OceanDelight-Regular, 'Ocean Delight';
+        font-size: 154.04px;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard 1" class="cls-2">
+    <g id="Group_1" data-name="Group 1">
+      <g id="S">
+        <g>
+          <text class="cls-1" transform="translate(318.33 584.47)"><tspan x="0" y="0">N</tspan></text>
+          <text class="cls-1" transform="translate(553.46 586.23)"><tspan x="0" y="0">S</tspan></text>
+        </g>
+      </g>
+      <image width="848" height="1264" transform="translate(0 -191.01) scale(1.27)" xlink:href="../../../../../../design/Yasmine/march/6 april/Perfumes Menu.png"/>
+    </g>
+  </g>
+</svg>
