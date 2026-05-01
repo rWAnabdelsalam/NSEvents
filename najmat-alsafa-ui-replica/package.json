@@ -1,19 +1,15 @@
-{
-  "name": "najmat-alsafa-ui-replica",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+// najmat-alsafa-ui-replica/vite.config.js
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+export default defineConfig({
+  plugins: [react()],
+  base: "./",
+  server: {
+    port: 5173,
+    open: true,
   },
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+  build: {
+    outDir: "dist",
   },
-  "devDependencies": {
-    "vite": "^5.2.0",
-    "@vitejs/plugin-react": "^4.2.0"
-  }
-}
+});
