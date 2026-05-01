@@ -1,4 +1,8 @@
 [build]
-  base    = "najmat-alsafa-ui-replica"
   command = "npm run build"
-  publish = "najmat-alsafa-ui-replica/dist"
+  publish = "dist"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
