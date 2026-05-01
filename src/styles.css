@@ -1150,3 +1150,46 @@ h3 { font-size: 28px; line-height: 1.08; }
     padding: 22px 16px;
   }
 }
+@media (max-width: 560px) {
+  .luxuryCardsBlock {
+    padding: 24px 16px;
+    overflow: hidden;
+  }
+
+  .luxuryCardsHeader h3 {
+    font-size: 30px;
+  }
+
+  .luxuryCardsTrack {
+    gap: 0;
+  }
+
+  .luxuryMiniCard {
+    flex: 0 0 100%;
+  }
+
+  .luxuryMiniImage {
+    aspect-ratio: 4 / 3;
+  }
+
+  .luxuryCardsTrack.slideNext {
+    animation: pushNextMobile .55s cubic-bezier(.22, .61, .36, 1) forwards;
+  }
+
+  .luxuryCardsTrack.slidePrev {
+    transform: translateX(-100%);
+    animation: pushPrevMobile .55s cubic-bezier(.22, .61, .36, 1) forwards;
+  }
+}
+
+@keyframes pushNextMobile {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes pushPrevMobile {
+  to {
+    transform: translateX(0);
+  }
+}
