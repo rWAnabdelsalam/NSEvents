@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header className="header">
       <a className="brand" href="#home" aria-label="Najmat AlSafa home">
-       <img className="brandStar" src="/assets/Logo_1.svg" alt="Najmat AlSafa" />
+       <img className="brandStar" src="/assets/logo.png" alt="Najmat AlSafa" />
         <span>Najmat AlSafa Events</span>
       </a>
 
